@@ -1,0 +1,13 @@
+<%= form_for( @user, method: :put  ) do |f| %>
+
+<%= f.label :username, 'Enter your username' %>
+<%= f.text_field :username %> <br><br>
+
+<%= f.label :password, 'Add a password' %>
+<%= f.password_field :password %> <br><br>
+
+<%= f.label :email, 'Enter your email address' %>
+<%= f.email_field :email, value: 'example@email.com' %> <br><br>
+
+<%= f.submit "Update" %>
+<% end %>
