@@ -1,6 +1,6 @@
-# Micro-Reddit
+# Rails-Forms
 
-This application is use to create posts by users and have users send comments to posts.
+This application is used to create and edit users using the available rails helpers and methods.
 
 ## Requirements
 
@@ -50,7 +50,7 @@ Then you can go to the [local host](http://localhost:3000/users/new) page and pl
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/gdumani/rails-forms/issues).
 
 ## Show your support
 
